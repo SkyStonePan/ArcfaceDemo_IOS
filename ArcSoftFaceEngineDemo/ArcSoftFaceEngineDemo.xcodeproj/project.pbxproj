@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65354AE62137E36D0066B14C /* ASFVideoProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77FE80B820A57D6600CFA9BB /* ASFVideoProcessor.mm */; };
+		6558C841213FA37200BD0265 /* ImageCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6558C83F213FA37200BD0265 /* ImageCheckController.m */; };
+		6558C842213FA37200BD0265 /* ImageCheckController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6558C840213FA37200BD0265 /* ImageCheckController.xib */; };
+		6558C846213FAB4000BD0265 /* VideoCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6558C844213FAB4000BD0265 /* VideoCheckController.m */; };
+		6558C847213FAB4000BD0265 /* VideoCheckController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6558C845213FAB4000BD0265 /* VideoCheckController.xib */; };
+		6558C849213FAC8900BD0265 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6558C848213FAC8900BD0265 /* ViewController.mm */; };
+		6558C84C213FB18500BD0265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6558C84A213FB18500BD0265 /* LaunchScreen.storyboard */; };
+		6558C852213FC36400BD0265 /* ColorFormatUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6558C851213FC36400BD0265 /* ColorFormatUtil.m */; };
+		657BA56D218A920D009743EB /* ImageChooseControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 657BA56B218A920D009743EB /* ImageChooseControl.m */; };
+		77FE803120A57ADB00CFA9BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE803020A57ADB00CFA9BB /* AppDelegate.m */; };
+		77FE803720A57ADB00CFA9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FE803520A57ADB00CFA9BB /* Main.storyboard */; };
+		77FE803920A57ADD00CFA9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FE803820A57ADD00CFA9BB /* Assets.xcassets */; };
+		77FE803F20A57ADD00CFA9BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE803E20A57ADD00CFA9BB /* main.m */; };
+		77FE80BF20A57D6700CFA9BB /* ASFCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE80B120A57D6600CFA9BB /* ASFCameraController.m */; };
+		77FE80C020A57D6700CFA9BB /* GLKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE80B420A57D6600CFA9BB /* GLKitView.m */; };
+		77FE80C120A57D6700CFA9BB /* ASFRCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE80B620A57D6600CFA9BB /* ASFRCDManager.m */; };
+		77FE80C320A57D6700CFA9BB /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE80B920A57D6600CFA9BB /* Utility.m */; };
+		77FE80C420A57D6700CFA9BB /* FSDKFR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77FE80BB20A57D6700CFA9BB /* FSDKFR.xcdatamodeld */; };
+		77FE80C520A57D6700CFA9BB /* ASFRManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE80BD20A57D6700CFA9BB /* ASFRManager.m */; };
+		77FE80C620A57D6700CFA9BB /* ASFRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FE80BE20A57D6700CFA9BB /* ASFRPerson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77FE80CD20A5804C00CFA9BB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		651C87692153445800EF320B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		65354AD72137D0930066B14C /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		65354AE72137E4930066B14C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6558C83E213FA37200BD0265 /* ImageCheckController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCheckController.h; sourceTree = "<group>"; };
+		6558C83F213FA37200BD0265 /* ImageCheckController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCheckController.m; sourceTree = "<group>"; };
+		6558C840213FA37200BD0265 /* ImageCheckController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCheckController.xib; sourceTree = "<group>"; };
+		6558C843213FAB4000BD0265 /* VideoCheckController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCheckController.h; sourceTree = "<group>"; };
+		6558C844213FAB4000BD0265 /* VideoCheckController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCheckController.m; sourceTree = "<group>"; };
+		6558C845213FAB4000BD0265 /* VideoCheckController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCheckController.xib; sourceTree = "<group>"; };
+		6558C848213FAC8900BD0265 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		6558C84B213FB18500BD0265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6558C850213FC36400BD0265 /* ColorFormatUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorFormatUtil.h; sourceTree = "<group>"; };
+		6558C851213FC36400BD0265 /* ColorFormatUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorFormatUtil.m; sourceTree = "<group>"; };
+		6558C855213FD69E00BD0265 /* AFRCDPerson+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFRCDPerson+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6558C856213FD69E00BD0265 /* AFRCDVersion+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFRCDVersion+CoreDataClass.h"; sourceTree = "<group>"; };
+		6558C857213FD69E00BD0265 /* AFRCDPerson+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFRCDPerson+CoreDataClass.m"; sourceTree = "<group>"; };
+		6558C858213FD69E00BD0265 /* AFRCDVersion+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFRCDVersion+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6558C859213FD69E00BD0265 /* AFRCDPerson+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFRCDPerson+CoreDataClass.h"; sourceTree = "<group>"; };
+		6558C85A213FD69F00BD0265 /* AFRCDPerson+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFRCDPerson+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6558C85B213FD69F00BD0265 /* AFRCDVersion+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFRCDVersion+CoreDataClass.m"; sourceTree = "<group>"; };
+		6558C85C213FD69F00BD0265 /* AFRCDVersion+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFRCDVersion+CoreDataProperties.h"; sourceTree = "<group>"; };
+		657BA56A218A920D009743EB /* ImageChooseControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageChooseControl.h; sourceTree = "<group>"; };
+		657BA56B218A920D009743EB /* ImageChooseControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageChooseControl.m; sourceTree = "<group>"; };
+		77FE802C20A57ADB00CFA9BB /* ArcSoftFaceEngineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcSoftFaceEngineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FE802F20A57ADB00CFA9BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77FE803020A57ADB00CFA9BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77FE803220A57ADB00CFA9BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77FE803620A57ADB00CFA9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77FE803820A57ADD00CFA9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77FE803D20A57ADD00CFA9BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FE803E20A57ADD00CFA9BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77FE80AF20A57D6600CFA9BB /* ASFRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFRPerson.h; sourceTree = "<group>"; };
+		77FE80B020A57D6600CFA9BB /* GLKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLKitView.h; sourceTree = "<group>"; };
+		77FE80B120A57D6600CFA9BB /* ASFCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFCameraController.m; sourceTree = "<group>"; };
+		77FE80B220A57D6600CFA9BB /* ASFRManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFRManager.h; sourceTree = "<group>"; };
+		77FE80B320A57D6600CFA9BB /* ASFCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFCameraController.h; sourceTree = "<group>"; };
+		77FE80B420A57D6600CFA9BB /* GLKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLKitView.m; sourceTree = "<group>"; };
+		77FE80B520A57D6600CFA9BB /* ASFVideoProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFVideoProcessor.h; sourceTree = "<group>"; };
+		77FE80B620A57D6600CFA9BB /* ASFRCDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFRCDManager.m; sourceTree = "<group>"; };
+		77FE80B720A57D6600CFA9BB /* ASFRCDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFRCDManager.h; sourceTree = "<group>"; };
+		77FE80B820A57D6600CFA9BB /* ASFVideoProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ASFVideoProcessor.mm; sourceTree = "<group>"; };
+		77FE80B920A57D6600CFA9BB /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		77FE80BA20A57D6600CFA9BB /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		77FE80BC20A57D6700CFA9BB /* FSDKFR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FSDKFR.xcdatamodel; sourceTree = "<group>"; };
+		77FE80BD20A57D6700CFA9BB /* ASFRManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFRManager.m; sourceTree = "<group>"; };
+		77FE80BE20A57D6700CFA9BB /* ASFRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFRPerson.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77FE802920A57ADB00CFA9BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6558C82F213F811000BD0265 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				77FE803220A57ADB00CFA9BB /* ViewController.h */,
+				6558C848213FAC8900BD0265 /* ViewController.mm */,
+				6558C83E213FA37200BD0265 /* ImageCheckController.h */,
+				6558C83F213FA37200BD0265 /* ImageCheckController.m */,
+				6558C843213FAB4000BD0265 /* VideoCheckController.h */,
+				6558C844213FAB4000BD0265 /* VideoCheckController.m */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		6558C84F213FC34C00BD0265 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				77FE80B020A57D6600CFA9BB /* GLKitView.h */,
+				77FE80B420A57D6600CFA9BB /* GLKitView.m */,
+				77FE80BA20A57D6600CFA9BB /* Utility.h */,
+				77FE80B920A57D6600CFA9BB /* Utility.m */,
+				6558C850213FC36400BD0265 /* ColorFormatUtil.h */,
+				6558C851213FC36400BD0265 /* ColorFormatUtil.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		6558C853213FD61D00BD0265 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				77FE80B320A57D6600CFA9BB /* ASFCameraController.h */,
+				77FE80B120A57D6600CFA9BB /* ASFCameraController.m */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		6558C854213FD64600BD0265 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				77FE80B520A57D6600CFA9BB /* ASFVideoProcessor.h */,
+				77FE80B820A57D6600CFA9BB /* ASFVideoProcessor.mm */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		6558C861213FD6B800BD0265 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				77FE80B720A57D6600CFA9BB /* ASFRCDManager.h */,
+				77FE80B620A57D6600CFA9BB /* ASFRCDManager.m */,
+				77FE80B220A57D6600CFA9BB /* ASFRManager.h */,
+				77FE80BD20A57D6700CFA9BB /* ASFRManager.m */,
+				77FE80AF20A57D6600CFA9BB /* ASFRPerson.h */,
+				77FE80BE20A57D6700CFA9BB /* ASFRPerson.m */,
+				6558C859213FD69E00BD0265 /* AFRCDPerson+CoreDataClass.h */,
+				6558C857213FD69E00BD0265 /* AFRCDPerson+CoreDataClass.m */,
+				6558C855213FD69E00BD0265 /* AFRCDPerson+CoreDataProperties.h */,
+				6558C85A213FD69F00BD0265 /* AFRCDPerson+CoreDataProperties.m */,
+				6558C856213FD69E00BD0265 /* AFRCDVersion+CoreDataClass.h */,
+				6558C85B213FD69F00BD0265 /* AFRCDVersion+CoreDataClass.m */,
+				6558C85C213FD69F00BD0265 /* AFRCDVersion+CoreDataProperties.h */,
+				6558C858213FD69E00BD0265 /* AFRCDVersion+CoreDataProperties.m */,
+				77FE80BB20A57D6700CFA9BB /* FSDKFR.xcdatamodeld */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		6558C8662140F32800BD0265 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				77FE803520A57ADB00CFA9BB /* Main.storyboard */,
+				6558C84A213FB18500BD0265 /* LaunchScreen.storyboard */,
+				6558C840213FA37200BD0265 /* ImageCheckController.xib */,
+				6558C845213FAB4000BD0265 /* VideoCheckController.xib */,
+				77FE803820A57ADD00CFA9BB /* Assets.xcassets */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		657BA568218A920D009743EB /* ImageChooseControl */ = {
+			isa = PBXGroup;
+			children = (
+				657BA56A218A920D009743EB /* ImageChooseControl.h */,
+				657BA56B218A920D009743EB /* ImageChooseControl.m */,
+			);
+			path = ImageChooseControl;
+			sourceTree = "<group>";
+		};
+		65ED06BC212BF1E80056562F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651C87692153445800EF320B /* libc++.tbd */,
+				65354AE72137E4930066B14C /* UIKit.framework */,
+				65354AD72137D0930066B14C /* libstdc++.6.0.9.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77FE802320A57ADB00CFA9BB = {
+			isa = PBXGroup;
+			children = (
+				77FE802E20A57ADB00CFA9BB /* ArcSoftFaceEngineDemo */,
+				77FE802D20A57ADB00CFA9BB /* Products */,
+				65ED06BC212BF1E80056562F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77FE802D20A57ADB00CFA9BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77FE802C20A57ADB00CFA9BB /* ArcSoftFaceEngineDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77FE802E20A57ADB00CFA9BB /* ArcSoftFaceEngineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				77FE802F20A57ADB00CFA9BB /* AppDelegate.h */,
+				77FE803020A57ADB00CFA9BB /* AppDelegate.m */,
+				77FE803E20A57ADD00CFA9BB /* main.m */,
+				6558C8662140F32800BD0265 /* res */,
+				6558C861213FD6B800BD0265 /* database */,
+				6558C854213FD64600BD0265 /* engine */,
+				6558C853213FD61D00BD0265 /* camera */,
+				6558C84F213FC34C00BD0265 /* util */,
+				657BA568218A920D009743EB /* ImageChooseControl */,
+				6558C82F213F811000BD0265 /* ui */,
+				77FE803D20A57ADD00CFA9BB /* Info.plist */,
+			);
+			path = ArcSoftFaceEngineDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77FE802B20A57ADB00CFA9BB /* ArcSoftFaceEngineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FE804220A57ADD00CFA9BB /* Build configuration list for PBXNativeTarget "ArcSoftFaceEngineDemo" */;
+			buildPhases = (
+				77FE802820A57ADB00CFA9BB /* Sources */,
+				77FE802920A57ADB00CFA9BB /* Frameworks */,
+				77FE802A20A57ADB00CFA9BB /* Resources */,
+				77FE80CD20A5804C00CFA9BB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcSoftFaceEngineDemo;
+			productName = ArcSoftFaceTestbed;
+			productReference = 77FE802C20A57ADB00CFA9BB /* ArcSoftFaceEngineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77FE802420A57ADB00CFA9BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ArcSoft;
+				TargetAttributes = {
+					77FE802B20A57ADB00CFA9BB = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 77FE802720A57ADB00CFA9BB /* Build configuration list for PBXProject "ArcSoftFaceEngineDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77FE802320A57ADB00CFA9BB;
+			productRefGroup = 77FE802D20A57ADB00CFA9BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77FE802B20A57ADB00CFA9BB /* ArcSoftFaceEngineDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77FE802A20A57ADB00CFA9BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6558C842213FA37200BD0265 /* ImageCheckController.xib in Resources */,
+				77FE803920A57ADD00CFA9BB /* Assets.xcassets in Resources */,
+				77FE803720A57ADB00CFA9BB /* Main.storyboard in Resources */,
+				6558C84C213FB18500BD0265 /* LaunchScreen.storyboard in Resources */,
+				6558C847213FAB4000BD0265 /* VideoCheckController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77FE802820A57ADB00CFA9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65354AE62137E36D0066B14C /* ASFVideoProcessor.mm in Sources */,
+				77FE80C320A57D6700CFA9BB /* Utility.m in Sources */,
+				77FE803F20A57ADD00CFA9BB /* main.m in Sources */,
+				77FE80C620A57D6700CFA9BB /* ASFRPerson.m in Sources */,
+				6558C849213FAC8900BD0265 /* ViewController.mm in Sources */,
+				77FE803120A57ADB00CFA9BB /* AppDelegate.m in Sources */,
+				6558C852213FC36400BD0265 /* ColorFormatUtil.m in Sources */,
+				77FE80C420A57D6700CFA9BB /* FSDKFR.xcdatamodeld in Sources */,
+				77FE80C020A57D6700CFA9BB /* GLKitView.m in Sources */,
+				6558C841213FA37200BD0265 /* ImageCheckController.m in Sources */,
+				657BA56D218A920D009743EB /* ImageChooseControl.m in Sources */,
+				77FE80C120A57D6700CFA9BB /* ASFRCDManager.m in Sources */,
+				6558C846213FAB4000BD0265 /* VideoCheckController.m in Sources */,
+				77FE80BF20A57D6700CFA9BB /* ASFCameraController.m in Sources */,
+				77FE80C520A57D6700CFA9BB /* ASFRManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6558C84A213FB18500BD0265 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6558C84B213FB18500BD0265 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77FE803520A57ADB00CFA9BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FE803620A57ADB00CFA9BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77FE804020A57ADD00CFA9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77FE804120A57ADD00CFA9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77FE804320A57ADD00CFA9BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XGDWKCU6D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ArcSoftFaceTestbed",
+					"$(PROJECT_DIR)/ArcSoftFaceEngineDemo",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ArcSoftFaceEngineDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArcSoftFaceEngineDemo",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcsoft.ArcSoftFaceEngineTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77FE804420A57ADD00CFA9BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XGDWKCU6D;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ArcSoftFaceTestbed",
+					"$(PROJECT_DIR)/ArcSoftFaceEngineDemo",
+				);
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/ArcSoftFaceEngineDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ArcSoftFaceEngineDemo",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arcsoft.ArcSoftFaceEngineTestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77FE802720A57ADB00CFA9BB /* Build configuration list for PBXProject "ArcSoftFaceEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FE804020A57ADD00CFA9BB /* Debug */,
+				77FE804120A57ADD00CFA9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77FE804220A57ADD00CFA9BB /* Build configuration list for PBXNativeTarget "ArcSoftFaceEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FE804320A57ADD00CFA9BB /* Debug */,
+				77FE804420A57ADD00CFA9BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		77FE80BB20A57D6700CFA9BB /* FSDKFR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				77FE80BC20A57D6700CFA9BB /* FSDKFR.xcdatamodel */,
+			);
+			currentVersion = 77FE80BC20A57D6700CFA9BB /* FSDKFR.xcdatamodel */;
+			path = FSDKFR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 77FE802420A57ADB00CFA9BB /* Project object */;
+}
