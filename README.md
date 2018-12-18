@@ -22,7 +22,7 @@ Xcode 9.x及以上
 
 5、修改Demo中的Info.plist文件，新增一个属性App Transport Security Settings，在该属性下添加Allow Arbitrary Loads类型Boolean，值设为YES；
 
-6、上述配置修改好之后，将Demo中ASFVideoProcessor.mm和ImageCheckController.m文件中的appId、sdkkey替换为从官网申请的APP_ID、SDK_KEY；
+6、上述配置修改好之后，将Demo中ViewController.mm文件中的appid、sdkkey替换为从官网申请的APP_ID、SDK_KEY；
 
 三、问题指南：
 1、详细接入指南可见官网：http://ai.arcsoft.com.cn/manual/arcface_ios_guideV2.html；
