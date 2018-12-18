@@ -9,8 +9,6 @@
 #import <ArcSoftFaceEngine/ArcSoftFaceEngineDefine.h>
 #import <ArcSoftFaceEngine/merror.h>
 
-#define ASF_APPID            @"官网申请的APP_ID"
-#define ASF_SDKKEY           @"官网申请的SDK_KEY"
 #define DETECT_MODE          ASF_DETECT_MODE_VIDEO
 #define ASF_FACE_NUM         6
 #define ASF_FACE_SCALE       16
