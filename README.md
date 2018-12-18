@@ -1,5 +1,5 @@
-# ArcfaceDemo_IOS
-Arcface2.0的IosDemo
+# ArcfaceDemo_iOS
+Arcface2.0的iOS Demo
 
 一、环境要求
 1、运行环境
