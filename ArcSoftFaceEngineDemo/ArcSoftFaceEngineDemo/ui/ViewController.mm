@@ -38,8 +38,8 @@
 }
 
 -(void)engineActive:(UIButton*)sender {
-    NSString *appid = @"";
-    NSString *sdkkey = @"";
+    NSString *appid = @"官网申请的APP_ID";
+    NSString *sdkkey = @"官网申请的SDK_KEY";
     ArcSoftFaceEngine *engine = [[ArcSoftFaceEngine alloc] init];
     MRESULT mr = [engine activeWithAppId:appid SDKKey:sdkkey];
     if (mr == ASF_MOK) {
