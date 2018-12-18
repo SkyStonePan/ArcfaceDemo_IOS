@@ -36,8 +36,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *appid = @"官网申请的APP_ID";
-    NSString *sdkkey = @"官网申请的SDK_KEY";
     engine = [[ArcSoftFaceEngine alloc] init];
     MRESULT mr = [engine initFaceEngineWithDetectMode:ASF_DETECT_MODE_IMAGE
                                   orientPriority:ASF_OP_0_HIGHER_EXT
